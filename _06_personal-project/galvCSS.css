@@ -1,0 +1,145 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #DCDBD9;
+}
+
+.topBar {
+	height: 80px;
+	border-bottom: 3px solid black;
+	width: 100%;
+	background-color: #DCDBD9;
+}
+
+
+#topList {
+	margin: 0px;
+	padding-left: 5px;
+	padding-top: 10px;
+
+
+}
+
+#topList li {
+	float: left;
+	list-style: none;
+	padding: 15px 10px 2px 4px;
+	font-weight: bold;
+	font-size: 1.2em;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background-color: #006300;
+	color: white;
+	height: 40px;
+	margin-right: 20px;
+	cursor: pointer;
+
+}
+
+#topList :hover {
+
+	background-color: #444444;
+	cursor: pointer;
+
+}
+
+#quote {
+	font-style: italic;
+}
+
+.middleBox {
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	height: 100%;
+	border: 1px solid #83878D;
+	border-radius: 5px;
+	background-image: url("Images/redTile.jpg");
+	color: white;
+
+}
+
+
+.center {
+	text-align: center;
+}
+
+
+.button {
+
+	margin: 0 auto;
+	height: 60px;
+	width: 160px;
+	font-weight: bold;
+	font-size: 1.5em;
+	border-radius: 5px;
+	color: white;
+	display: block;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	cursor: pointer;
+	background-color: #006300;
+}
+
+#childHood {
+	margin: 0 auto;
+	display: block;
+	height: 60%;
+	width: 100%;
+
+}
+
+.imgStyle {
+	margin: 0 auto;
+	display: block;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+.bios {
+	margin-bottom: 30px;
+	font-weight: bold;
+
+}
+
+
+.clear {
+	clear: both;
+}
+
+#dot {
+
+	background-color: black;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	position: relative;
+	margin: 0 auto;
+	top: -55px;
+}
+
+#me {
+
+	position: relative;
+	left: 18px;
+	top: 18px;
+
+}
+
+#onUp {
+	margin: 0 auto;
+	height: 40px;
+	width: 60px;
+	font-weight: bold;
+	font-size: 1.5em;
+	border-radius: 5px;
+	color: white;
+	display: block;
+	cursor: pointer;
+	font-size: 1em;
+	background-color: red;
+	position: relative;
+	top: -30px;
+}
+
